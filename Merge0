@@ -1,0 +1,13 @@
+A1 = imread('7/7_WebLogo_0.55-0.60.png');
+A2 = imread('7/7_WebLogo_0.56-0.61.png');
+A3 = imread('7/7_WebLogo_0.57-0.62.png');
+A4 = imread('7/7_WebLogo_0.58-0.63.png');
+A5 = imread('7/7_WebLogo_0.59-0.64.png');
+A6 = imread('7/7_WebLogo_0.60-0.65.png');
+A7 = imread('7/7_WebLogo_0.61-0.66.png');
+A8 = imread('7/7_WebLogo_0.62-0.67.png');
+A9 = imread('7/7_WebLogo_0.63-0.68.png');
+A10 = imread('7/7_WebLogo_0.64-0.69.png');
+A = [A1; A2; A3; A4; A5; A6; A7; A8; A9; A10];
+figure,imshow(A);%Show A
+imwrite(A,'7.png');
